@@ -110,6 +110,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/DesktopHDpics\/facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/DesktopHDpics\/facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/DesktopHDpics\/FurryvWiz.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -189,6 +199,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/DesktopHDpics\/instagram.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/DesktopHDpics\/instagram.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/DesktopHDpics\/Mini.png" : {
       "ft" : 32768,
       "iS" : 16341,
@@ -207,6 +227,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/DesktopHDpics\/mini.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/DesktopHDpics\/paper-airplane.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/DesktopHDpics\/paper-airplane.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/DesktopHDpics\/Phone.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/DesktopHDpics\/Phone.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -265,6 +305,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/DesktopHDpics\/twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/DesktopHDpics\/twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/DesktopHDpics\/uw.png" : {
       "ft" : 32768,
       "iS" : 110014,
@@ -293,6 +343,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/DesktopHDpics\/WHlogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/DesktopHDpics\/youtube.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/DesktopHDpics\/youtube.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -361,7 +421,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
