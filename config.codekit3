@@ -21,338 +21,211 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/40k.png" : {
-      "ft" : 32768,
-      "iS" : 111444,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/40k.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/40k.svg" : {
+    "\/deploy\/img\/cards\/mini.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/40k.svg",
+      "oAP" : "\/deploy\/img\/cards\/mini.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/aos.png" : {
-      "ft" : 32768,
-      "iS" : 103288,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/aos.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/AOS.svg" : {
+    "\/deploy\/img\/cards\/templste.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/AOS.svg",
+      "oAP" : "\/deploy\/img\/cards\/templste.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/Arrow(C).svg" : {
+    "\/deploy\/img\/footer\/facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/Arrow(C).svg",
+      "oAP" : "\/deploy\/img\/footer\/facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/arrow(W).svg" : {
+    "\/deploy\/img\/footer\/instagram.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/arrow(W).svg",
+      "oAP" : "\/deploy\/img\/footer\/instagram.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/BigE.svg" : {
+    "\/deploy\/img\/footer\/paper-airplane.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/BigE.svg",
+      "oAP" : "\/deploy\/img\/footer\/paper-airplane.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/EvH.png" : {
-      "ft" : 32768,
-      "iS" : 2424730,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/EvH.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/facebook.svg" : {
+    "\/deploy\/img\/footer\/Phone.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/facebook.svg",
+      "oAP" : "\/deploy\/img\/footer\/Phone.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/FurryvWiz.svg" : {
+    "\/deploy\/img\/footer\/twitter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/FurryvWiz.svg",
+      "oAP" : "\/deploy\/img\/footer\/twitter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/gc.png" : {
-      "ft" : 32768,
-      "iS" : 124985,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/gc.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/GC.svg" : {
+    "\/deploy\/img\/footer\/youtube.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/GC.svg",
+      "oAP" : "\/deploy\/img\/footer\/youtube.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/hero 2.png" : {
-      "ft" : 32768,
-      "iS" : 2363318,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/hero 2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/hh.png" : {
-      "ft" : 32768,
-      "iS" : 121977,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/hh.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/HH.svg" : {
+    "\/deploy\/img\/header\/WHlogo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/HH.svg",
+      "oAP" : "\/deploy\/img\/header\/WHlogo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/HvE.svg" : {
+    "\/deploy\/img\/hero1\/Arrow(C).svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/HvE.svg",
+      "oAP" : "\/deploy\/img\/hero1\/Arrow(C).svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/instagram.svg" : {
+    "\/deploy\/img\/hero1\/arrow(W).svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/instagram.svg",
+      "oAP" : "\/deploy\/img\/hero1\/arrow(W).svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/Mini.png" : {
-      "ft" : 32768,
-      "iS" : 16341,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/Mini.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/mini.svg" : {
+    "\/deploy\/img\/hero1\/HvE.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/mini.svg",
+      "oAP" : "\/deploy\/img\/hero1\/HvE.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/paper-airplane.svg" : {
+    "\/deploy\/img\/hero2\/BigE.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/paper-airplane.svg",
+      "oAP" : "\/deploy\/img\/hero2\/BigE.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/Phone.svg" : {
+    "\/deploy\/img\/hero2\/FurryvWiz.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/Phone.svg",
+      "oAP" : "\/deploy\/img\/hero2\/FurryvWiz.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/search_icon.svg" : {
+    "\/deploy\/img\/hero2\/SvK.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/search_icon.svg",
+      "oAP" : "\/deploy\/img\/hero2\/SvK.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/social.svg" : {
+    "\/deploy\/img\/search\/search_icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/social.svg",
+      "oAP" : "\/deploy\/img\/search\/search_icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/SvK.svg" : {
+    "\/deploy\/img\/timeline\/40k.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/SvK.svg",
+      "oAP" : "\/deploy\/img\/timeline\/40k.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/template.png" : {
-      "ft" : 32768,
-      "iS" : 16362,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/template.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/templste.svg" : {
+    "\/deploy\/img\/timeline\/AOS.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/templste.svg",
+      "oAP" : "\/deploy\/img\/timeline\/AOS.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/twitter.svg" : {
+    "\/deploy\/img\/timeline\/GC.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/twitter.svg",
+      "oAP" : "\/deploy\/img\/timeline\/GC.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/uw.png" : {
-      "ft" : 32768,
-      "iS" : 110014,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/uw.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/DesktopHDpics\/UW.svg" : {
+    "\/deploy\/img\/timeline\/HH.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/UW.svg",
+      "oAP" : "\/deploy\/img\/timeline\/HH.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/DesktopHDpics\/WHlogo.svg" : {
+    "\/deploy\/img\/timeline\/UW.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/WHlogo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/DesktopHDpics\/youtube.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/DesktopHDpics\/youtube.svg",
+      "oAP" : "\/deploy\/img\/timeline\/UW.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
