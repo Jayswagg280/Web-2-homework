@@ -5,4 +5,13 @@
     img{
         width: 100%;
     }
+
+ul{
+    display: grid;
+    gap: 16px;
+    grid-template-rows: repeat(5, 381px);
+    li{
+
+    }
+}
 }
