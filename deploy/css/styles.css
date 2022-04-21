@@ -402,6 +402,15 @@ textarea {
 /* =============
     Footer
 ============= */
+footer > div {
+  grid-area: footer;
+}
+footer > div ul li {
+  display: grid;
+  grid-template-columns: 10% auto;
+  grid-template-areas: "footer .";
+}
+
 /* =============
     Cards
 ============= */
