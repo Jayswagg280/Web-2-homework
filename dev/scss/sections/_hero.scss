@@ -5,4 +5,12 @@
     img{
         width: 100%;
     }
+        >div{
+        ul{
+            li{
+                display: grid;
+                grid-template-columns: auto 20% 10%;
+            }
+            }
+        }
 }

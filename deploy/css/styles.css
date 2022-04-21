@@ -414,6 +414,11 @@ footer > div ul li {
 /* =============
     Cards
 ============= */
+#cards > div {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
 /* =============
     Hero-2
 ============= */
@@ -426,6 +431,10 @@ footer > div ul li {
 ============= */
 #hero img {
   width: 100%;
+}
+#hero > div ul li {
+  display: grid;
+  grid-template-columns: auto 20% 10%;
 }
 
 /* =============

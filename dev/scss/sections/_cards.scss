@@ -1,6 +1,10 @@
 /* =============
     Cards
 ============= */
-#about{
-    
+#cards{
+    >div{
+
+            display: grid;
+            grid-template-columns: 70% auto;
+    }
 }
