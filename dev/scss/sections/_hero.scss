@@ -2,15 +2,32 @@
     Hero
 ============= */
 #hero{
-    img{
-        width: 100%;
-    }
         >div{
-        ul{
-            li{
+        article{
+
+            @include md{
                 display: grid;
-                grid-template-columns: auto 20% 10%;
+                grid-template-columns: 50% auto;
             }
+
+            #hero-img-title{
+                @include xxl{
+                    display: grid;
+                    grid-template-columns: auto 720px 16px;
+                }
+            }
+
+            #hero-img-ex{
+                @include xxl{
+                    display: grid;
+                    grid-template-columns: 16px 720px auto;
+                }
+            }
+
             }
         }
+}
+
+#hero-img{
+        width: 100%;
 }

@@ -363,10 +363,33 @@ ul li {
 .css-grid-global {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
+  grid-template-areas: ". global-grid .";
+}
+@media (min-width: 1440px) {
+  .css-grid-global {
+    grid-template-columns: auto 1440px auto;
+  }
 }
 .css-grid-global > div {
-  grid-area: header;
+  grid-area: global-grid;
+}
+
+.show-for-md {
+  display: none;
+}
+@media (min-width: 768px) {
+  .show-for-md {
+    display: block;
+  }
+}
+
+.show-for-lg {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .show-for-lg {
+    display: block;
+  }
 }
 
 /* =============
@@ -403,7 +426,36 @@ textarea {
     Footer
 ============= */
 footer > div {
+  display: grid;
+  gap: 16px;
   grid-area: footer;
+}
+@media (min-width: 768px) {
+  footer > div {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "locations new-members" ". follow-us";
+  }
+}
+@media (min-width: 1024px) {
+  footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "locations new-members follow-us";
+  }
+}
+@media (min-width: 768px) {
+  footer > div #locations {
+    grid-area: locations;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #new-members {
+    grid-area: new-members;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #follow-us {
+    grid-area: follow-us;
+  }
 }
 footer > div ul li {
   display: grid;
@@ -414,9 +466,23 @@ footer > div ul li {
 /* =============
     Cards
 ============= */
-#cards > div {
-  display: grid;
-  grid-template-columns: 70% auto;
+@media (min-width: 768px) {
+  #cards > div article {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1440px) {
+  #cards > div article #card-1 {
+    display: grid;
+    grid-template-columns: auto 720px;
+  }
+}
+@media (min-width: 1440px) {
+  #cards > div article #card-2 {
+    display: grid;
+    grid-template-columns: 720px auto;
+  }
 }
 
 /* =============
@@ -429,12 +495,27 @@ footer > div ul li {
 /* =============
     Hero
 ============= */
-#hero img {
-  width: 100%;
+@media (min-width: 768px) {
+  #hero > div article {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
 }
-#hero > div ul li {
-  display: grid;
-  grid-template-columns: auto 20% 10%;
+@media (min-width: 1440px) {
+  #hero > div article #hero-img-title {
+    display: grid;
+    grid-template-columns: auto 720px 16px;
+  }
+}
+@media (min-width: 1440px) {
+  #hero > div article #hero-img-ex {
+    display: grid;
+    grid-template-columns: 16px 720px auto;
+  }
+}
+
+#hero-img {
+  width: 100%;
 }
 
 /* =============
@@ -446,8 +527,65 @@ footer > div ul li {
 #WH-timeline img {
   width: 100%;
 }
-#WH-timeline ul {
+@media (min-width: 768px) {
+  #WH-timeline article {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". age .";
+  }
+}
+@media (min-width: 1440px) {
+  #WH-timeline article {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#WH-timeline article ul {
   display: grid;
   gap: 16px;
-  grid-template-rows: repeat(5, 381px);
+  grid-template-rows: repeat(5, auto);
+}
+@media (min-width: 768px) {
+  #WH-timeline article ul {
+    grid-area: age;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "t1 t1 t2 t2" "t3 t3 t4 t4" ". t5 t5 .";
+  }
+}
+@media (min-width: 1024px) {
+  #WH-timeline article ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "t1 t1 t2 t2 t3 t3" ". t4 t4 t5 t5 .";
+  }
+}
+@media (min-width: 768px) {
+  #WH-timeline article ul #t1 {
+    grid-area: t1;
+  }
+}
+@media (min-width: 768px) {
+  #WH-timeline article ul #t2 {
+    grid-area: t2;
+  }
+}
+@media (min-width: 768px) {
+  #WH-timeline article ul #t3 {
+    grid-area: t3;
+  }
+}
+@media (min-width: 768px) {
+  #WH-timeline article ul #t4 {
+    grid-area: t4;
+  }
+}
+@media (min-width: 768px) {
+  #WH-timeline article ul #t5 {
+    grid-area: t5;
+  }
+}
+#sub-header {
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". sub-header .";
+}
+#sub-header div {
+  grid-area: sub-header;
 }

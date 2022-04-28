@@ -3,8 +3,27 @@
 ============= */
 #cards{
     >div{
+        article{
 
-            display: grid;
-            grid-template-columns: 70% auto;
+            @include md{
+                display: grid;
+                grid-template-columns: 50% auto;
+            }
+
+            #card-1{
+                @include xxl{
+                    display: grid;
+                    grid-template-columns: auto 720px;
+                }
+            }
+
+            #card-2{
+                @include xxl{
+                    display: grid;
+                    grid-template-columns: 720px auto;
+                }
+            }
+
+            }
     }
 }

@@ -4,6 +4,52 @@
 
 footer{
     >div{
+
+        display: grid;
+        gap: 16px;
+
+        @include md{
+            grid-template-columns: 50% auto;
+
+            grid-template-areas: 
+            "locations new-members"
+            ". follow-us";
+        }
+
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "locations new-members follow-us";
+        }
+
+
+        #locations{
+            @include md{
+                grid-area: locations;
+            }
+
+            ul{
+                li{
+                
+                }
+            }
+
+
+        }
+
+        #new-members{
+            @include md{
+                grid-area: new-members
+            }
+        }
+
+        #follow-us{
+            @include md{
+                grid-area: follow-us;
+            }
+        }
+
+
         grid-area: footer;
     ul{
         li{
@@ -14,3 +60,4 @@ footer{
         }
     }
 }
+
