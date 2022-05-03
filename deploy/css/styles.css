@@ -397,6 +397,9 @@ ul li {
 ============= */
 body {
   font-family: "PT Serif", serif;
+  font-size: 0.9375rem;
+  font-weight: 200;
+  text-align: left;
 }
 
 h1 {

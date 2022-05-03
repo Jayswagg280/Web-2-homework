@@ -3,8 +3,14 @@
 ============= */
 
 body {
-    font-family: 'PT Serif', serif; }
-  
+    font-family: 'PT Serif', serif; 
+    font-size: rem-calc(15px);
+    font-weight: 200;
+    text-align: left;
+}
+    
+    
+
   h1 {
     margin: 16px;
     padding: 16px; }
@@ -15,3 +21,4 @@ body {
   
   .section-title {
     font-weight: 300; }
+
