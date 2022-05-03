@@ -395,6 +395,24 @@ ul li {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "PT Serif", serif;
+}
+
+h1 {
+  margin: 16px;
+  padding: 16px;
+}
+
+p {
+  margin: 16px;
+  padding: 16px;
+}
+
+.section-title {
+  font-weight: 300;
+}
+
 /* =============
     Buttons
 ============= */
