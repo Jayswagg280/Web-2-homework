@@ -6,12 +6,18 @@
         width: 100%;
     }
 
+    h1{
+        margin: 16px 0px 0px;
+    }
+
     article{
+        margin: 16px 0px;
 
         @include md{
             display: grid;
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". age .";
+            margin: 16px 0px 48px;
         }
 
         @include xxl{
@@ -41,6 +47,10 @@
 
 
             #t1{
+                background-color: var(--sanguine-gold);
+                section{
+                    padding: 16px;
+                }
                 @include md{
                     grid-area: t1;
                 }
@@ -48,24 +58,41 @@
     
     
             #t2{
+                background-color: var(--sanguine-gold);
+                section{
+                    padding: 16px;
+                }
+
                 @include md{
                     grid-area: t2;
                 }
             }
     
             #t3{
+                background-color: var(--sanguine-gold);
+                section{
+                    padding: 16px;
+                }
                 @include md{
                     grid-area: t3;
                 }
             }
     
             #t4{
+                background-color: var(--sanguine-gold);
+                section{
+                    padding: 16px;
+                }
                 @include md{
                     grid-area: t4;
                 }
             }
     
             #t5{
+                background-color: var(--sanguine-gold);
+                section{
+                    padding: 16px;
+                }
                 @include md{
                     grid-area: t5;
                 }

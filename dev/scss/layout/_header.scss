@@ -4,6 +4,9 @@
 
 header{
      background-color: var(--black);
+     @include xxl{
+         grid-template-columns: 16px auto 16px !important;
+     }
 
     div{
         section{

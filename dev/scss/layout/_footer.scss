@@ -3,6 +3,20 @@
 ============= */
 
 footer{
+    background-color: var(--horus-green);
+    
+    h1,h2,h3 {
+        color: var(--sanguine-gold);
+        padding: 16px 0px;
+    }
+
+    padding: 48px 0px;
+
+    input{
+        margin: 0px;
+        padding: 0px;
+        border: none;
+    }
     >div{
 
         display: grid;
@@ -30,14 +44,22 @@ footer{
 
             ul{
                 li{
-                
+                    color: var(--white);
+                    border-bottom: 1px solid var(--white);
                 }
             }
 
-
+        #la{
+            border: none;
         }
 
+        }
+        
         #new-members{
+            input{
+                background-color: var(--sanguine-gold);
+                padding: 16px;
+            }
             @include md{
                 grid-area: new-members
             }

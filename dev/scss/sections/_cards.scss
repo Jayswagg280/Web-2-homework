@@ -11,6 +11,18 @@
             }
 
             #card-1{
+                color: var(--white);
+                background-color: var(--horus-green);
+                padding: 16px;
+                margin: 16px 0px;
+
+                @include md{
+                    padding: 24px;
+                    margin: 16px 8px 16px 0px;
+                    font-size: rem-calc(31);
+                    font-weight: 400;
+                }
+
                 @include xxl{
                     display: grid;
                     grid-template-columns: auto 720px;
@@ -18,6 +30,18 @@
             }
 
             #card-2{
+                color: var(--white);
+                background-color: var(--horus-green);
+                padding: 16px;
+                margin: 16px 0px;
+
+                @include md{
+                    padding: 24px;
+                    margin: 16px 0px 16px 8px;
+                    font-size: rem-calc(31);
+                    font-weight: 400;
+                }
+
                 @include xxl{
                     display: grid;
                     grid-template-columns: 720px auto;

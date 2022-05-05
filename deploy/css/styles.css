@@ -422,7 +422,7 @@ h1, h2, h3, h4 {
 
 p {
   margin: 16px 0px;
-  padding: 16px;
+  padding: 16px 0px;
 }
 
 .section-title {
@@ -471,6 +471,11 @@ textarea {
 header {
   background-color: var(--black);
 }
+@media (min-width: 1440px) {
+  header {
+    grid-template-columns: 16px auto 16px !important;
+  }
+}
 header div section img {
   width: 111px;
 }
@@ -488,6 +493,19 @@ header div section img {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--horus-green);
+  padding: 48px 0px;
+}
+footer h1, footer h2, footer h3 {
+  color: var(--sanguine-gold);
+  padding: 16px 0px;
+}
+footer input {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
 footer > div {
   display: grid;
   gap: 16px;
@@ -509,6 +527,17 @@ footer > div {
   footer > div #locations {
     grid-area: locations;
   }
+}
+footer > div #locations ul li {
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
+}
+footer > div #locations #la {
+  border: none;
+}
+footer > div #new-members input {
+  background-color: var(--sanguine-gold);
+  padding: 16px;
 }
 @media (min-width: 768px) {
   footer > div #new-members {
@@ -535,10 +564,38 @@ footer > div ul li {
     grid-template-columns: 50% auto;
   }
 }
+#cards > div article #card-1 {
+  color: var(--white);
+  background-color: var(--horus-green);
+  padding: 16px;
+  margin: 16px 0px;
+}
+@media (min-width: 768px) {
+  #cards > div article #card-1 {
+    padding: 24px;
+    margin: 16px 8px 16px 0px;
+    font-size: 1.9375rem;
+    font-weight: 400;
+  }
+}
 @media (min-width: 1440px) {
   #cards > div article #card-1 {
     display: grid;
     grid-template-columns: auto 720px;
+  }
+}
+#cards > div article #card-2 {
+  color: var(--white);
+  background-color: var(--horus-green);
+  padding: 16px;
+  margin: 16px 0px;
+}
+@media (min-width: 768px) {
+  #cards > div article #card-2 {
+    padding: 24px;
+    margin: 16px 0px 16px 8px;
+    font-size: 1.9375rem;
+    font-weight: 400;
   }
 }
 @media (min-width: 1440px) {
@@ -551,6 +608,9 @@ footer > div ul li {
 /* =============
     Hero-2
 ============= */
+#hero-2 {
+  margin: 16px 0px;
+}
 #hero-2 img {
   width: 100%;
 }
@@ -637,11 +697,18 @@ footer > div ul li {
 #WH-timeline img {
   width: 100%;
 }
+#WH-timeline h1 {
+  margin: 16px 0px 0px;
+}
+#WH-timeline article {
+  margin: 16px 0px;
+}
 @media (min-width: 768px) {
   #WH-timeline article {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". age .";
+    margin: 16px 0px 48px;
   }
 }
 @media (min-width: 1440px) {
@@ -667,25 +734,55 @@ footer > div ul li {
     grid-template-areas: "t1 t1 t2 t2 t3 t3" ". t4 t4 t5 t5 .";
   }
 }
+#WH-timeline article ul #t1 {
+  background-color: var(--sanguine-gold);
+}
+#WH-timeline article ul #t1 section {
+  padding: 16px;
+}
 @media (min-width: 768px) {
   #WH-timeline article ul #t1 {
     grid-area: t1;
   }
+}
+#WH-timeline article ul #t2 {
+  background-color: var(--sanguine-gold);
+}
+#WH-timeline article ul #t2 section {
+  padding: 16px;
 }
 @media (min-width: 768px) {
   #WH-timeline article ul #t2 {
     grid-area: t2;
   }
 }
+#WH-timeline article ul #t3 {
+  background-color: var(--sanguine-gold);
+}
+#WH-timeline article ul #t3 section {
+  padding: 16px;
+}
 @media (min-width: 768px) {
   #WH-timeline article ul #t3 {
     grid-area: t3;
   }
 }
+#WH-timeline article ul #t4 {
+  background-color: var(--sanguine-gold);
+}
+#WH-timeline article ul #t4 section {
+  padding: 16px;
+}
 @media (min-width: 768px) {
   #WH-timeline article ul #t4 {
     grid-area: t4;
   }
+}
+#WH-timeline article ul #t5 {
+  background-color: var(--sanguine-gold);
+}
+#WH-timeline article ul #t5 section {
+  padding: 16px;
 }
 @media (min-width: 768px) {
   #WH-timeline article ul #t5 {
