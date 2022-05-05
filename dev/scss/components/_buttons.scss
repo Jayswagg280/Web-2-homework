@@ -1,3 +1,14 @@
 /* =============
     Buttons
 ============= */
+button{
+    margin: 0px;
+    padding: 0px;
+}
+
+.red-button{
+    background-color: var(--sanguine-blood);
+    border: none;
+    color: var(--white);
+    padding: 6px 14px;
+}

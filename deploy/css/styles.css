@@ -10,6 +10,15 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --horus-green: #151C1A;
+  --sanguine-gold: #FFD482;
+  --sanguine-blood: #960000;
+  --red: #FF0000;
+  --white: #fff;
+  --black: #000;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -354,10 +363,14 @@ template {
 ============= */
 ul {
   padding: 0;
-  margin: 0;
+  margin: 0px;
 }
 ul li {
   list-style: none;
+}
+
+.top-spacing {
+  margin-top: 24px;
 }
 
 .css-grid-global {
@@ -402,13 +415,13 @@ body {
   text-align: left;
 }
 
-h1 {
-  margin: 16px;
-  padding: 16px;
+h1, h2, h3, h4 {
+  margin: 0px;
+  padding: 0px;
 }
 
 p {
-  margin: 16px;
+  margin: 16px 0px;
   padding: 16px;
 }
 
@@ -419,6 +432,18 @@ p {
 /* =============
     Buttons
 ============= */
+button {
+  margin: 0px;
+  padding: 0px;
+}
+
+.red-button {
+  background-color: var(--sanguine-blood);
+  border: none;
+  color: var(--white);
+  padding: 6px 14px;
+}
+
 /* =============
     Forms
 ============= */
@@ -443,6 +468,23 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: var(--black);
+}
+header div section img {
+  width: 111px;
+}
+@media (min-width: 768px) {
+  header div section img {
+    width: 127px;
+  }
+}
+@media (min-width: 768px) {
+  header div section img {
+    width: 149px;
+  }
+}
+
 /* =============
     Footer
 ============= */
@@ -522,11 +564,31 @@ footer > div ul li {
     grid-template-columns: 50% auto;
   }
 }
+#hero > div article #hero-img-title {
+  color: var(--white);
+  background-color: var(--sanguine-blood);
+  padding: 16px;
+}
+#hero > div article #hero-img-title button {
+  background-color: var(--sanguine-blood);
+  color: var(--white);
+  border: none;
+}
 @media (min-width: 1440px) {
   #hero > div article #hero-img-title {
     display: grid;
     grid-template-columns: auto 720px 16px;
   }
+}
+#hero > div article #hero-img-ex {
+  color: var(--horus-green);
+  background-color: var(--sanguine-gold);
+  padding: 16px;
+}
+#hero > div article #hero-img-ex button {
+  background-color: var(--sanguine-gold);
+  color: var(--horus-green);
+  border: none;
 }
 @media (min-width: 1440px) {
   #hero > div article #hero-img-ex {
@@ -542,6 +604,33 @@ footer > div ul li {
 /* =============
     Search
 ============= */
+#search {
+  background-color: var(--sanguine-blood);
+  margin-top: 0px;
+}
+#search button {
+  background-color: var(--sanguine-gold);
+  border-radius: 3.5px;
+  border: 0px;
+  padding: 6px 10px 4px;
+  margin: 16px;
+  border: none;
+}
+@media (min-width: 768px) {
+  #search button {
+    padding: 9px 16px 6px;
+  }
+}
+#search > div input {
+  background-color: var(--sanguine-blood);
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  border-radius: 0;
+}
+
 /* =============
     WH-timeline
 ============= */

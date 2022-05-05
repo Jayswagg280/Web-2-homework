@@ -3,11 +3,20 @@
 ============= */
 
 header{
+     background-color: var(--black);
 
     div{
         section{
             img{
-    
+                width: 111px;
+
+                @include md{
+                    width: 127px;
+                }
+
+                @include md{
+                    width: 149px;
+                }
             }
         }
     }

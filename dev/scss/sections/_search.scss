@@ -2,5 +2,32 @@
     Search
 ============= */
 #search{
-    
+    background-color: var(--sanguine-blood);
+    margin-top: 0px;
+    button{
+        background-color: var(--sanguine-gold);
+        border-radius: 3.5px;
+        border: 0px;
+        padding: 6px 10px 4px;
+        margin: 16px;
+        border: none;
+
+        @include md{
+            padding: 9px 16px 6px
+        }
+    }
+    >div{
+            input{
+                background-color: var(--sanguine-blood);
+                width: 100%;
+                box-sizing: border-box;
+                border:none;
+                border-bottom: 1px solid var(--white);
+                color: var(--white);
+                border-radius: 0;
+
+            }
+
+
+    }
 }

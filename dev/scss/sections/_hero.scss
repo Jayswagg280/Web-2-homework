@@ -4,13 +4,23 @@
 #hero{
         >div{
         article{
-
+            
             @include md{
                 display: grid;
                 grid-template-columns: 50% auto;
             }
 
             #hero-img-title{
+                button{
+                    background-color: var(--sanguine-blood);
+                    color: var(--white);
+                    border: none;
+
+                }
+                color: var(--white);
+                background-color: var(--sanguine-blood);
+                padding: 16px;
+
                 @include xxl{
                     display: grid;
                     grid-template-columns: auto 720px 16px;
@@ -18,6 +28,16 @@
             }
 
             #hero-img-ex{
+                button{
+                    background-color: var(--sanguine-gold);
+                    color: var(--horus-green);
+                    border: none;
+
+                }
+                color: var(--horus-green);
+                background-color: var(--sanguine-gold);
+                padding: 16px;
+
                 @include xxl{
                     display: grid;
                     grid-template-columns: 16px 720px auto;
