@@ -627,14 +627,24 @@ footer > div ul li {
   }
 }
 #hero > div article #hero-img-title {
+  display: flex;
+  align-items: center;
   color: var(--white);
   background-color: var(--sanguine-blood);
   padding: 16px;
 }
 #hero > div article #hero-img-title button {
-  background-color: var(--sanguine-blood);
+  background-color: transparent;
   color: var(--white);
   border: none;
+}
+@media (min-width: 1024px) {
+  #hero > div article #hero-img-title button {
+    display: flex;
+  }
+  #hero > div article #hero-img-title button .hero-left > div {
+    display: flex;
+  }
 }
 @media (min-width: 1440px) {
   #hero > div article #hero-img-title {

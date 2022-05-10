@@ -11,12 +11,27 @@
             }
 
             #hero-img-title{
+
+                display:flex;
+                align-items: center;
+
                 button{
-                    background-color: var(--sanguine-blood);
+                    background-color: transparent;
                     color: var(--white);
                     border: none;
+                    @include lg{
+                        display: flex;
 
+                .hero-left{
+                    >div{
+                        display:flex;
+                            
+                            
+                            }
+                        }
+                    }
                 }
+
                 color: var(--white);
                 background-color: var(--sanguine-blood);
                 padding: 16px;
