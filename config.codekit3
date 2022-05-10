@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/cards\/mini.jpg" : {
+      "ft" : 16384,
+      "iS" : 136985,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cards\/mini.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/cards\/mini.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -31,11 +44,24 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/cards\/templste.svg" : {
+    "\/deploy\/img\/cards\/template.jpg" : {
+      "ft" : 16384,
+      "iS" : 205018,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cards\/template.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/cards\/template.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/cards\/templste.svg",
+      "oAP" : "\/deploy\/img\/cards\/template.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -131,6 +157,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/hero1\/HvE.jpg" : {
+      "ft" : 16384,
+      "iS" : 475928,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero1\/HvE.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero1\/HvE.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -161,6 +200,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/hero2\/SvK.jpg" : {
+      "ft" : 16384,
+      "iS" : 245005,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero2\/SvK.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero2\/SvK.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -181,6 +233,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/timeline\/40k.jpg" : {
+      "ft" : 16384,
+      "iS" : 119488,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/timeline\/40k.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/timeline\/40k.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -190,6 +255,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/timeline\/AOS.jpg" : {
+      "ft" : 16384,
+      "iS" : 88950,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/timeline\/AOS.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/timeline\/AOS.svg" : {
       "ft" : 2097152,
@@ -201,6 +279,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/timeline\/GC.jpg" : {
+      "ft" : 16384,
+      "iS" : 223327,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/timeline\/GC.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/timeline\/GC.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -211,6 +302,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/timeline\/HH.jpg" : {
+      "ft" : 16384,
+      "iS" : 187854,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/timeline\/HH.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/timeline\/HH.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -220,6 +324,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/timeline\/UW.jpg" : {
+      "ft" : 16384,
+      "iS" : 97007,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/timeline\/UW.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/timeline\/UW.svg" : {
       "ft" : 2097152,
