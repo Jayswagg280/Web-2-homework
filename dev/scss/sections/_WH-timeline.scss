@@ -4,6 +4,7 @@
 #WH-timeline {
     img {
         width: 100%;
+        
     }
 
     h1{
@@ -25,6 +26,13 @@
         }
 
         ul {
+            li{
+                aside{
+                    height: 220px;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
             display: grid;
             gap: 16px;
             grid-template-rows: repeat(5, auto);
@@ -54,6 +62,9 @@
                 @include md{
                     grid-area: t1;
                 }
+                aside{
+                    background-image: url('../img/timeline/AOS.jpg');
+                }
             }
     
     
@@ -66,6 +77,9 @@
                 @include md{
                     grid-area: t2;
                 }
+                aside{
+                    background-image: url('../img/timeline/UW.jpg');
+                }
             }
     
             #t3{
@@ -75,6 +89,9 @@
                 }
                 @include md{
                     grid-area: t3;
+                }
+                aside{
+                    background-image: url('../img/timeline/GC.jpg');
                 }
             }
     
@@ -86,6 +103,9 @@
                 @include md{
                     grid-area: t4;
                 }
+                aside{
+                    background-image: url('../img/timeline/HH.jpg');
+                }
             }
     
             #t5{
@@ -95,6 +115,9 @@
                 }
                 @include md{
                     grid-area: t5;
+                }
+                aside{
+                    background-image: url('../img/timeline/40k.jpg');
                 }
             }
     }

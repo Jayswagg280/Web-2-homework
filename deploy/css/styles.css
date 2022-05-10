@@ -610,9 +610,11 @@ footer > div ul li {
 ============= */
 #hero-2 {
   margin: 16px 0px;
-}
-#hero-2 img {
-  width: 100%;
+  width: 50vw;
+  height: 50vh;
+  background-image: url("../img/hero2/SvK.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* =============
@@ -658,7 +660,11 @@ footer > div ul li {
 }
 
 #hero-img {
-  width: 100%;
+  width: 100vw;
+  height: 50vh;
+  background-image: url("../img/hero1/HvE.jpg");
+  background-size: cover;
+  background-position: center 30%;
 }
 
 /* =============
@@ -721,6 +727,11 @@ footer > div ul li {
   gap: 16px;
   grid-template-rows: repeat(5, auto);
 }
+#WH-timeline article ul li aside {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
 @media (min-width: 768px) {
   #WH-timeline article ul {
     grid-area: age;
@@ -745,6 +756,9 @@ footer > div ul li {
     grid-area: t1;
   }
 }
+#WH-timeline article ul #t1 aside {
+  background-image: url("../img/timeline/AOS.jpg");
+}
 #WH-timeline article ul #t2 {
   background-color: var(--sanguine-gold);
 }
@@ -755,6 +769,9 @@ footer > div ul li {
   #WH-timeline article ul #t2 {
     grid-area: t2;
   }
+}
+#WH-timeline article ul #t2 aside {
+  background-image: url("../img/timeline/UW.jpg");
 }
 #WH-timeline article ul #t3 {
   background-color: var(--sanguine-gold);
@@ -767,6 +784,9 @@ footer > div ul li {
     grid-area: t3;
   }
 }
+#WH-timeline article ul #t3 aside {
+  background-image: url("../img/timeline/GC.jpg");
+}
 #WH-timeline article ul #t4 {
   background-color: var(--sanguine-gold);
 }
@@ -778,6 +798,9 @@ footer > div ul li {
     grid-area: t4;
   }
 }
+#WH-timeline article ul #t4 aside {
+  background-image: url("../img/timeline/HH.jpg");
+}
 #WH-timeline article ul #t5 {
   background-color: var(--sanguine-gold);
 }
@@ -788,6 +811,9 @@ footer > div ul li {
   #WH-timeline article ul #t5 {
     grid-area: t5;
   }
+}
+#WH-timeline article ul #t5 aside {
+  background-image: url("../img/timeline/40k.jpg");
 }
 #sub-header {
   grid-template-columns: 16px auto 16px;
