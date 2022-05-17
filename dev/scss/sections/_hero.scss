@@ -9,25 +9,23 @@
                 display: grid;
                 grid-template-columns: 50% auto;
             }
-
+            
             #hero-img-title{
-
-                display:flex;
-                align-items: center;
-
+               
                 button{
                     background-color: transparent;
                     color: var(--white);
                     border: none;
+                    margin-left: auto;
+                    align-items: center;
                     @include lg{
                         display: flex;
 
-                .hero-left{
-                    >div{
-                        display:flex;
-                            
-                            
-                            }
+                
+                    }
+                    img{
+                        @include md{
+                            margin-left: 8px;
                         }
                     }
                 }
@@ -37,16 +35,40 @@
                 padding: 16px;
 
                 @include xxl{
-                    display: grid;
-                    grid-template-columns: auto 720px 16px;
+                            
+                }
+                @include xxl{
+                    
                 }
             }
+            .hero-left{
+                
+                    display:flex;
+                    align-items: center;
+                        
+                        
+
+                    }
+                
+
+
 
             #hero-img-ex{
                 button{
                     background-color: var(--sanguine-gold);
                     color: var(--horus-green);
                     border: none;
+                    margin-left: auto;
+                    align-items: center;
+                    @include lg{
+                        display: flex;
+                    }
+
+                    img{
+                        @include md{
+                            margin-left: 8px;
+                        }
+                    }
 
                 }
                 color: var(--horus-green);
@@ -54,10 +76,19 @@
                 padding: 16px;
 
                 @include xxl{
-                    display: grid;
-                    grid-template-columns: 16px 720px auto;
+                    
                 }
             }
+            .hero-right{
+                
+                    display:flex;
+                    align-items: center;  
+                    @include xxl{
+
+                    }  
+                        
+
+                    }
 
             }
         }

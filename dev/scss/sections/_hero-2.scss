@@ -2,14 +2,15 @@
     Hero-2
 ============= */
 #hero-2 {
-
-    margin: 16px 0px;
+    >div {
+        margin: 16px 0px;
   
-    width: 50vw;
-    height: 50vh;
+    height: 100vh;
     background-image: url('../img/hero2/SvK.jpg');
     background-size: cover;
     background-position: center;
-   
+    box-sizing: border-box;
+    }
+  
 
 }
