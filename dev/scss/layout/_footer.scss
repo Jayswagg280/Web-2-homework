@@ -46,6 +46,17 @@ footer{
                 li{
                     color: var(--white);
                     border-bottom: 1px solid var(--white);
+
+                    a:link, a:visited{
+                        margin-bottom: 16px;
+                        color: var(--white);
+                        transition: 0.25s;
+                        text-decoration: none;
+
+                        &:hover, &:active{
+                            color: var(--sanguine-blood);
+                        }
+                    }
                 }
             }
 
@@ -68,6 +79,7 @@ footer{
         #follow-us{
             @include md{
                 grid-area: follow-us;
+                margin-left: auto;
             }
         }
 

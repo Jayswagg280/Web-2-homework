@@ -7,8 +7,28 @@ header{
      @include xxl{
          grid-template-columns: 16px auto 16px !important;
      }
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+
 
     div{
+
+        display: grid;
+        grid-template-columns: 50% auto;
+        align-items: center;
+        #burger-container{
+            display: flex;
+            justify-content: flex-end;
+
+            button{
+                border: none;
+                background-color: transparent;
+                color: var(--white);
+                padding: 16px;
+            }
+        }
         section{
             img{
                 width: 111px;

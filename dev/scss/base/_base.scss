@@ -47,3 +47,8 @@ ul{
     }
 }
 
+.hide-for-lg{
+    @include lg{
+        display: none;
+    }
+}

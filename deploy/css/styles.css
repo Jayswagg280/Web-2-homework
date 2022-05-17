@@ -405,6 +405,12 @@ ul li {
   }
 }
 
+@media (min-width: 1024px) {
+  .hide-for-lg {
+    display: none;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -435,6 +441,7 @@ p {
 button {
   margin: 0px;
   padding: 0px;
+  cursor: pointer;
 }
 
 .red-button {
@@ -442,6 +449,11 @@ button {
   border: none;
   color: var(--white);
   padding: 6px 14px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.red-button:hover {
+  background-color: var(--sanguine-gold);
 }
 
 /* =============
@@ -465,16 +477,39 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+}
+
 /* =============
     Header
 ============= */
 header {
   background-color: var(--black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 @media (min-width: 1440px) {
   header {
     grid-template-columns: 16px auto 16px !important;
   }
+}
+header div {
+  display: grid;
+  grid-template-columns: 50% auto;
+  align-items: center;
+}
+header div #burger-container {
+  display: flex;
+  justify-content: flex-end;
+}
+header div #burger-container button {
+  border: none;
+  background-color: transparent;
+  color: var(--white);
+  padding: 16px;
 }
 header div section img {
   width: 111px;
@@ -532,6 +567,15 @@ footer > div #locations ul li {
   color: var(--white);
   border-bottom: 1px solid var(--white);
 }
+footer > div #locations ul li a:link, footer > div #locations ul li a:visited {
+  margin-bottom: 16px;
+  color: var(--white);
+  transition: 0.25s;
+  text-decoration: none;
+}
+footer > div #locations ul li a:link:hover, footer > div #locations ul li a:link:active, footer > div #locations ul li a:visited:hover, footer > div #locations ul li a:visited:active {
+  color: var(--sanguine-blood);
+}
 footer > div #locations #la {
   border: none;
 }
@@ -547,6 +591,7 @@ footer > div #new-members input {
 @media (min-width: 768px) {
   footer > div #follow-us {
     grid-area: follow-us;
+    margin-left: auto;
   }
 }
 footer > div ul li {
@@ -644,6 +689,7 @@ footer > div ul li {
   border: none;
   margin-left: auto;
   align-items: center;
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   #hero > div article #hero-img-title button {
@@ -670,6 +716,7 @@ footer > div ul li {
   border: none;
   margin-left: auto;
   align-items: center;
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   #hero > div article #hero-img-ex button {
@@ -698,7 +745,7 @@ footer > div ul li {
 ============= */
 #search {
   background-color: var(--sanguine-blood);
-  margin-top: 0px;
+  margin-top: 79px;
 }
 #search button {
   background-color: var(--sanguine-gold);
@@ -707,11 +754,16 @@ footer > div ul li {
   padding: 6px 10px 4px;
   margin: 16px;
   border: none;
+  cursor: pointer;
+  transition: 0.25s;
 }
 @media (min-width: 768px) {
   #search button {
     padding: 9px 16px 6px;
   }
+}
+#search button:hover {
+  background-color: var(--white);
 }
 #search > div input {
   background-color: var(--sanguine-blood);
