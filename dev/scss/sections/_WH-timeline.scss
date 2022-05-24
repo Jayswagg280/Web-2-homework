@@ -20,7 +20,7 @@
             grid-template-areas: ". age .";
             margin: 16px 0px 48px;
         }
-
+ 
         @include xxl{
             grid-template-columns: auto 1440px auto;
         }
